@@ -1,0 +1,12 @@
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'alt-r': 'run:file'
+  'alt-shift-r': 'run:selection'
+
+'atom-workspace':
+  'shift-ctrl-c': 'run:stop'
+
+'.atom-runner':
+  'escape': 'run:close'
+
+'atom-workspace atom-text-editor.emacs-plus:not([mini])':
+  'ctrl-`': 'emacs-plus:set-mark'

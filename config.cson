@@ -1,0 +1,28 @@
+"*":
+  "atom-runner": {}
+  core:
+    packagesWithKeymapsDisabled: [
+      "fuzzy-finder"
+      "find-and-replace"
+    ]
+  "disable-keybindings":
+    allCommunityPackages: true
+    bundledPackages: [
+      "go-to-line"
+      "bracket-matcher"
+    ]
+    exceptCommunityPackages: [
+      "emacs-plus"
+    ]
+    prefixKeys: [
+      "ctrl-k"
+    ]
+  editor: {}
+  "exception-reporting":
+    userId: "fdec02f8-1de8-ddc5-0745-18d723b305ea"
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+  welcome:
+    showOnStartup: false
